@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-1E/MHbneiSv7lLbWp5VnCylx4efDvKXXjmYwIgImixqzKNFpJv1KXeL8IBQc61iRnEESvNtF44/XN73sQsKzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+</head>
+
+
+<body>
+    <div class="container-fluid">
+        <!-- Hero section with parallax effect and animation -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to my portfolio</h1>
+                <p>My name is SPANDAN BHATTARAI and I am a Cyber Security student</p>
+            </div>
+        </section>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark sticky-top">
+
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="logo" style="width:40px;">
+            </a>
+            <ul class="navbar-nav mg-lg-0 mb-2 me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skill">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#writings">Writings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#project">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://drive.google.com/file/d/1VPz76okj6KmGLD73Lq0dSp9pYfdYeaiS/view?usp=sharing"
+                        class="nav-link" target="_blank">
+                        Download CV</a>
+                </li>
+            </ul>
+
+            <form class="form-inline d-flex input-group w-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </div>
+
+    </nav>
+
+    <!-- About Start -->
+    <div class="container-fluid py-5 bg-dark" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-dark" style="-webkit-text-stroke: 1px #525557;">About</h1>
+                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded-circle w-100" src="images/pic.jpeg" alt="">
+                </div>
+                <div class="col-lg-7 text-white">
+                    <h3 class="mb-4">Cyber Security Student & Front-end Developer</h3>
+                    <p>cyber Security student.
+                        I consider my self a
+                        responsible and orderly
+                        person.
+                        I am looking forward for
+                        my first work
+                        experience.</p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2">
+                            <h6>Name: <span class="text-secondary">Spandan Bhattarai</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>Birthday: <span class="text-secondary">25 April 2005</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>Degree: <span class="text-secondary">Bachelor(ongoing)</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>Experience: <span class="text-secondary">nil so far</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>Phone: <span class="text-secondary">+977 9863780333</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>Email: <span class="text-secondary">sbhattarai50@example.com</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>Address: <span class="text-secondary">Old-Baneshwor, Kathmandu, Nepal</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>Freelance: <span class="text-secondary">Available</span></h6>
+                        </div>
+                    </div>
+                    <a href="#about" class="btn blue btn-outline-primary mr-4">Hire Me</a>
+                    <a href="https://www.linkedin.com/in/spandan-bhattarai-113209180/" target="_blank" class="btn btn-outline-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Skill Start -->
+    <div class="container-fluid py-5 bg-dark" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-dark" style="-webkit-text-stroke: 1px #525557;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+            </div>
+            <div class="row align-items-center text-white">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">WebPageDevelopment</h6>
+                            <h6 class="font-weight-bold">75%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" style="width: 75%" role="progressbar"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Python</h6>
+                            <h6 class="font-weight-bold">65%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" style="width: 65%" role="progressbar"
+                                aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Linux</h6>
+                            <h6 class="font-weight-bold">75%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" style="width: 75%" role="progressbar" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Assembly</h6>
+                            <h6 class="font-weight-bold">55%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 55%" role="progressbar" aria-valuenow="55"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">MongoDB</h6>
+                            <h6 class="font-weight-bold">65%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" style="width: 65%" role="progressbar" aria-valuenow="65"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">C/C++</h6>
+                            <h6 class="font-weight-bold">60%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 60%" role="progressbar"
+                                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">SQL</h6>
+                            <h6 class="font-weight-bold">70%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" style="width: 70%" role="progressbar" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Networking</h6>
+                            <h6 class="font-weight-bold">65%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" style="width: 54%" role="progressbar" aria-valuenow="65"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+
+    <!--Education start-->
+    <section id="education" class="py-5 bg-dark">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-dark" style="-webkit-text-stroke: 1px #525557;">Educatoin</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Education</h1>
+            </div>
+            <div class="row text-white">
+                <div class="col-md-6">
+                    <div class="card border-light bg-dark mr-4">
+                        <div class="card-body">
+                            <h3 class="card-title">BSC. Ethical Hacking and cyber Security</h3>
+                            <h4 class="card-subtitle mb-2 text-muted">Softwarica college - Coventry Uni.</h4>
+                            <p class="card-text">2022-<i>on going</i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-light bg-dark mr-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Cambrdige International Assesment A-levels</h3>
+                            <h4 class="card-subtitle mb-2 text-muted">Xavier International College</h4>
+                            <p class="card-text">July 2020 - August 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Education End-->
+
+    <!--My writings start-->
+    <section id="writings" class="py-5 bg-dark">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-dark" style="-webkit-text-stroke: 1px #525557;">Writing</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Recent writings</h1>
+            </div>
+            <div class="row text-white">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body bg-dark">
+                            <h3 class="card-title ">Case Study on .gov.np attack-2023</h3>
+                            <p class="card-text text-muted">Study of a DDOS attack on websites and services of Nepal
+                                government, their effects, cause and response</p>
+                            <a href="https://medium.com/@spandanbhattarai/case-study-on-gov-np-hack-2023-b2f58be85266"
+                                target="_blank" class="card-link">Read</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body bg-dark">
+                            <h3 class="card-title">Ethics in couple monitoring their baby's nanny</h3>
+                            <p class="card-text">Discussion of couple secretly monitoring the activities of their
+                                child's nanny from ethics and law's view</p>
+                            <a href="https://spandanbhattarai.medium.com/is-it-wrong-for-a-couple-to-secretly-monitor-the-behavior-of-their-babys-nanny-f9049168eb5b"
+                                target="_blank" class="card-link">Read</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body bg-dark">
+                            <h3 class="card-title">Ethical Decision making in Autonomous vehicles</h3>
+                            <p class="card-text">Discussion about self-driving vehicles and the decision they make in
+                                times of danger</p>
+                            <a href="https://spandanbhattarai.medium.com/ethical-decision-making-in-autonomous-vehicles-28c88ddab9c5"
+                                target="_blank" class="card-link">Read</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--My writings section end-->
+
+    <!--Education start-->
+    <section id="project" class="py-5 bg-dark">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-dark" style="-webkit-text-stroke: 1px #525557;">Projects</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Projects</h1>
+            </div>
+            <div class="row text-white">
+                <div class="col-md-4">
+                    <div class="card border-light bg-dark mr-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Click bot </h3>
+                            <h4 class="card-subtitle mb-2 text-muted">Python with pynput</h4>
+                            <p class="card-text">
+                                <a href="https://github.com/Spandan-Bhattarai/Python-projects-basics/tree/clickbot"
+                                    target="_blank" class="card-link">Go to github</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-light bg-dark mr-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Password Generator</h3>
+                            <h4 class="card-subtitle mb-2 text-muted">C programming</h4>
+                            <p class="card-text">
+                                <a href="https://github.com/Spandan-Bhattarai/Python-projects-basics/tree/pwd_generator"
+                                    target="_blank" class="card-link">Go to github</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card border-light bg-dark mr-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Calculator</h3>
+                            <h4 class="card-subtitle mb-2 text-muted">Python with tkinter GUI</h4>
+                            <p class="card-text">
+                                <a href="https://github.com/Spandan-Bhattarai/Python-projects-basics/blob/calculator/calculator.py"
+                                    target="_blank" class="card-link">Go to github</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row text-white">
+
+                <div class="col-md-4">
+                    <div class="card border-light bg-dark mr-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Youtube Video Downloader</h3>
+                            <h4 class="card-subtitle mb-2 text-muted">Python with tkinter GUI</h4>
+                            <p class="card-text">
+                                <a href="https://github.com/Spandan-Bhattarai/Python-projects-basics/blob/main/ytdownloader"
+                                    target="_blank" class="card-link">Go to github</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-light bg-dark mr-4">
+                        <div class="card-body">
+                            <h3 class="card-title">File Encryptor Decryptor</h3>
+                            <h4 class="card-subtitle mb-2 text-muted">C programming</h4>
+                            <p class="card-text">
+                                <a href="https://github.com/Spandan-Bhattarai/C-projects/blob/master/fileencryptdecrypt.c"
+                                    target="_blank" class="card-link">Go to github</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-light bg-dark mr-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Github</h3>
+                            <h4 class="card-subtitle mb-2 text-muted">Go to the Guithub to check more of my projects
+                            </h4>
+                            <p class="card-text">
+                                <a href="https://github.com/Spandan-Bhattarai" target="_blank" class="card-link">Go to
+                                    github profile</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Projects End-->
+
+    <!--Footer start-->
+    <footer class="text-center text-white" style="background-color: rgba(44,49,58,255)">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item">
+                  <a href="https://github.com/Spandan-Bhattarai" target="_blank">
+                    <img src="images/github.svg" alt="GitHub" height="20" width="20">
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/spandan.bhattarai.75/" target="_blank">
+                    <img src="images/facebook.svg" alt="Facebook" height="20" width="20">
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/spandan-bhattarai-113209180/" target="_blank">
+                    <img src="images/linkedin.svg" alt="LinkedIn" height="20" width="20">
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://spandanbhattarai.medium.com/" target="_blank">
+                    <img src="images/medium.svg" alt="Medium" height="20" width="20">
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="mailto:sbhattarai50@example.com" target="_blank">
+                    <img src="images/gmail.svg" alt="Gmail" height="20" width="20">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="text-center p-3">
+                <span>&copy; 2023 Spandan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+</body>
+
+</html>
