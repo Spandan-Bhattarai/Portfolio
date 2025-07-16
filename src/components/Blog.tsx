@@ -28,13 +28,13 @@ const Blog: React.FC = () => {
       url: "https://spandanbhattarai.medium.com/it-all-started-with-the-discovery-of-a-security-flaw-in-microsofts-authentication-system-37ee922665a6"
     },
     {
-      title: "Is It Wrong for a Couple to Secretly Monitor the Behavior of Their Babys Nanny?",
-      excerpt: "An ethical exploration into the boundaries of privacy and trust when parents secretly surveil a caregiver to protect their child.",
-      date: "2024-12-24",
-      readTime: "4 min read",
-      category: "Ethics & Privacy",
-      url: "https://spandanbhattarai.medium.com/is-it-wrong-for-a-couple-to-secretly-monitor-the-behavior-of-their-babys-nanny-f9049168eb5b"
-    },
+      "title": "Why AES-256 Remains the Cornerstone of Modern Cryptography",
+      "excerpt": "AES-256 continues to be a robust and trusted encryption standard, providing critical security in an era of increasingly sophisticated cyber threats.",
+      "date": "2025-06-06",
+      "readTime": "11 min read",
+      "category": "Cryptography / Cybersecurity",
+      "url": "https://medium.com/@spandanbhattarai/why-aes-256-remains-the-cornerstone-of-modern-cryptography-92a097ea4c72"
+    }    ,
     {
       title: "Ethical Decision making in Autonomous vehicles",
       excerpt: "Autonomous vehicles (AVs) are being developed to address the risk of human error…Weve seen the emergence of several ethical issues surrounding autonomous cars and trucks…",
@@ -42,7 +42,7 @@ const Blog: React.FC = () => {
       readTime: "5 min read",
       category: "Ethics / Autonomous Vehicles",
       url: "https://spandanbhattarai.medium.com/ethical-decision-making-in-autonomous-vehicles-28c88ddab9c5"
-    }, 
+    },
     {
       title: "Mr. Robot CTF — Try Hack Me walkthrough",
       excerpt: "A hands-on walkthrough of the Mr. Robot CTF on TryHackMe, covering port scanning, base64 decoding, reverse shells, privilege escalation, and root access.",
@@ -58,7 +58,7 @@ const Blog: React.FC = () => {
     "Linux Basics": "from-green-500 to-emerald-500",
     "Network Security": "from-blue-500 to-cyan-500",
     "Malware Analysis": "from-red-500 to-pink-500",
-    "Ethics & Privacy": "from-purple-500 to-indigo-500",
+    "Cryptography / Cybersecurity": "from-purple-500 to-indigo-500",
     "CTF Walkthrough": "from-purple-500 to-indigo-500",
     "Ethics / Autonomous Vehicles": "from-amber-500 to-yellow-500"
   };
